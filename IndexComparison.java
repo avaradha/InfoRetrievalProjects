@@ -1,6 +1,14 @@
 /**
  * IndexComparison class is used to run various analyzer for a
- * specified set of corpus. The program usage is given below:
+ * specified set of corpus.
+ *
+ * The Analyzers that are being compared are:
+ *  1. StandardAnalyzer
+ *  2. SimpleAnalyzer
+ *  3. StopAnalyzer
+ *  4. KeywordAnalyzer
+ *
+ * The program usage is given below:
  *
  * <tt>java IndexComparison <Corpus Directory> <Index Directory></tt>
  *
